@@ -36,6 +36,7 @@ p {
 .button.secondary {
   border: 2px solid #1f1f1f;
   color: white;
+  backdrop-filter: blur(2em);
 }
 
 .button.primary:hover,
@@ -45,7 +46,7 @@ p {
 }
 
 .button.primary {
-  background-color: #1f1f1f;
+  background-color: #1f1f1fa0;
 }
 
 .button.secondary {

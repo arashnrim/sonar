@@ -42,3 +42,10 @@ div#hero-container {
   display: flex;
   gap: 1rem;
 }
+
+#hero svg {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
+}
