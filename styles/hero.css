@@ -1,0 +1,44 @@
+#hero {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+#hero video {
+  background-size: cover;
+  position: absolute;
+  object-fit: contain;
+}
+
+div#hero-container {
+  position: absolute;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #000000c0;
+  color: white;
+  padding: 0 min(10vw, 20rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero-container h1 {
+  font-size: var(--title);
+}
+
+#hero-container span {
+  width: 60%;
+  margin-top: 1rem;
+}
+
+#hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
