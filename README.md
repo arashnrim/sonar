@@ -4,7 +4,7 @@ Welcome to the project repository for Sonar's website! This project is part of a
 
 > **Warning**
 >
-> It's likely that, at this point in time, you'll encounter a not found error when you click on any links in this README that points to the repository. This is mainly caused by the fact that the repository is **private**; once the assignment period is nearing its end or has ended, I'll make the repository public.
+> It's likely that, at this point in time, you'll encounter a not found error when you click on any link in this README that points to the repository. This is mainly caused by the fact that the repository is **private**; once the assignment period is nearing its end or has ended, I'll make the repository public.
 
 ## About the project
 
@@ -19,7 +19,7 @@ The following is lifted from the assignment brief, stating what is expected of t
 > - Use version control software to maintain and upload code.
 > - Test and deploy a front-end web application to GitHub.
 
-This project is written with vanilla web languages (i.e., HTML, CSS, and JavaScript); [index.html](https://github.com/arashnrim/sonar/blob/main/index.html) is the main entrypoint.
+This project is written with vanilla web languages (i.e., HTML, CSS, and JavaScript); [index.html](https://github.com/arashnrim/sonar/blob/main/index.html) is the main entry point.
 
 ## Wiki
 
