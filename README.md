@@ -16,8 +16,8 @@ The following is lifted from the assignment brief, stating what is expected of t
 >
 > - Build a static front-end responsive website using HTML, CSS, JavaScript, and modern web development techniques.
 > - Design a front-end web application based on sound design principles and accessibility.
-> - Use version control software to maintain and upload code
-> - Test and deploy a front-end web application to GitHub
+> - Use version control software to maintain and upload code.
+> - Test and deploy a front-end web application to GitHub.
 
 This project is written with vanilla web languages (i.e., HTML, CSS, and JavaScript); [index.html](https://github.com/arashnrim/sonar/blob/main/index.html) is the main entrypoint.
 
