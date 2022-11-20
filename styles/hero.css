@@ -1,3 +1,7 @@
+#hero {
+  min-height: 100vh;
+}
+
 #hero video {
   background-size: cover;
   position: absolute;
@@ -10,7 +14,6 @@ div#hero-content {
   top: 0;
   left: 0;
   min-height: 100%;
-  width: 100%;
   z-index: 1;
   background-color: #000000c0;
   color: white;
@@ -24,13 +27,19 @@ div#hero-content {
 }
 
 #hero-content span {
-  width: 60%;
   margin-top: 1rem;
+}
+
+@media only screen and (min-width: 860px) {
+  #hero-content span {
+    width: 60%;
+  }
 }
 
 #hero-buttons {
   margin-top: 2rem;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 

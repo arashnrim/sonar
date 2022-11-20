@@ -1,48 +1,59 @@
 #listen {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 3em;
 }
 
-#listen-bubbles {
-  padding: 30% 0;
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  flex-wrap: wrap;
-  overflow-y: scroll;
-}
-
-.listen-artist {
-  flex-basis: content;
-  border: 1px solid #e5e5e5;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  padding: 10%;
+#listen-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  position: relative;
+  gap: 1em;
 }
 
-.listen-artist img {
+#listen-artists {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.artist {
+  position: relative;
+  height: clamp(10rem, 20vw, 20rem);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+}
+
+.artist img {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+  border-radius: 50%;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.artist h3 {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  text-align: center;
+  bottom: 1em;
+  z-index: 2;
+}
+
+.artist-highlight {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
-  object-fit: cover;
+  width: 100%;
   border-radius: 50%;
-  z-index: -1;
-}
-
-@media only screen and (min-width: 768px) {
-  #listen-bubbles {
-    padding: 10% 0;
-  }
-
-  .listen-artist {
-    padding: 5%;
-  }
+  background-color: #000000c0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
