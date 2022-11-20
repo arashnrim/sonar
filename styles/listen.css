@@ -1,0 +1,48 @@
+#listen {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#listen-bubbles {
+  padding: 30% 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.listen-artist {
+  flex-basis: content;
+  border: 1px solid #e5e5e5;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.listen-artist img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 768px) {
+  #listen-bubbles {
+    padding: 10% 0;
+  }
+
+  .listen-artist {
+    padding: 5%;
+  }
+}

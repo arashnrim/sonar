@@ -9,7 +9,7 @@
   </head>
   <body>
     <section id="hero">
-      <div id="hero-container">
+      <div id="hero-content" class="container">
         <h1>Sonar</h1>
         <span class="larger">Your music service.</span>
         <span
@@ -26,35 +26,26 @@
 
       <svg viewBox="0 0 100 100">
         <circle
-          cx="97"
-          cy="3"
-          r="5"
+          cx="89"
+          cy="10"
+          r="7"
           stroke="white"
           stroke-opacity="0.1"
           stroke-width="0.1"
           fill="none"
         />
         <circle
-          cx="97"
-          cy="3"
-          r="9"
+          cx="89"
+          cy="10"
+          r="13"
           stroke="white"
           stroke-opacity="0.25"
           stroke-width="0.1"
           fill="none"
         />
         <circle
-          cx="96"
-          cy="4"
-          r="14"
-          stroke="white"
-          stroke-opacity="0.5"
-          stroke-width="0.1"
-          fill="none"
-        />
-        <circle
-          cx="94"
-          cy="6"
+          cx="89"
+          cy="10"
           r="20"
           stroke="white"
           stroke-opacity="0.5"
@@ -62,6 +53,57 @@
           fill="none"
         />
       </svg>
+    </section>
+
+    <section id="listen" class="container">
+      <h2 class="larger">Who do you listen to?</h2>
+      <p>
+        No matter your kind of music taste, Sonar will try to pair you with
+        artists that suit your listening patterns best. Here are a few artists
+        our users have been listening to recently.
+      </p>
+
+      <div id="listen-bubbles">
+        <div class="listen-artist">
+          <h3>Taylor Swift</h3>
+          <p>1.5M streams</p>
+          <img
+            class="listen-artist-image"
+            src="/assets/images/artists/taylor-swift.jpg"
+            alt="Taylor Swift"
+            loading="lazy"
+          />
+        </div>
+        <div class="listen-artist">
+          <h3>Drake</h3>
+          <p>1.5M streams</p>
+          <img
+            class="listen-artist-image"
+            src="/assets/images/artists/drake.jpg"
+            alt="Drake"
+            loading="lazy"
+          />
+        </div>
+        <div class="listen-artist">
+          <h3>21 Savage</h3>
+          <p>1.5M streams</p>
+          <img
+            class="listen-artist-image"
+            src="/assets/images/artists/21-savage.jpg"
+            alt="21 Savage"
+            loading="lazy"
+          />
+        </div>
+        <div class="listen-artist">
+          <h3>Morgan Wallen</h3>
+          <p>1.5M streams</p>
+          <img
+            class="listen-artist-image"
+            src="/assets/images/artists/morgan-wallen.jpg"
+            alt="Morgan Wallen"
+          />
+        </div>
+      </div>
     </section>
   </body>
 </html>

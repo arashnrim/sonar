@@ -1,18 +1,10 @@
-#hero {
-  min-height: 100vh;
-  width: 100vw;
-  position: relative;
-  overflow: hidden;
-  user-select: none;
-}
-
 #hero video {
   background-size: cover;
   position: absolute;
   object-fit: contain;
 }
 
-div#hero-container {
+div#hero-content {
   position: absolute;
   box-sizing: border-box;
   top: 0;
@@ -22,17 +14,16 @@ div#hero-container {
   z-index: 1;
   background-color: #000000c0;
   color: white;
-  padding: 0 min(10vw, 20rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#hero-container h1 {
+#hero-content h1 {
   font-size: var(--title);
 }
 
-#hero-container span {
+#hero-content span {
   width: 60%;
   margin-top: 1rem;
 }
