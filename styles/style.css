@@ -4,6 +4,7 @@
 
 :root {
   --title: clamp(2rem, 10vw, 5rem);
+  --subtitle: clamp(1.5rem, 5vw, 3rem);
   --larger: clamp(1rem, 5vw, 2rem);
   --body: clamp(1rem, 2.5vw, 1.5rem);
 }
@@ -16,7 +17,7 @@
 }
 
 body {
-  background-color: #1f1f1f;
+  background-color: #0a0a0a;
   color: white;
   overflow-x: hidden;
 }
@@ -36,6 +37,10 @@ section {
 .content-container {
   padding: min(10vw, 20rem);
   box-sizing: border-box;
+}
+
+.subtitle {
+  font-size: var(--subtitle);
 }
 
 .larger {

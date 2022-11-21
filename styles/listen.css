@@ -10,20 +10,41 @@
   gap: 1em;
 }
 
-#listen-artists {
+#listen-text p {
+  width: 75%;
+}
+
+.artists-container {
   display: flex;
   flex-direction: row;
   gap: 5%;
   overflow-x: scroll;
   overflow-y: hidden;
+  align-items: center;
 }
 
 .artist {
   position: relative;
-  height: clamp(10rem, 20vw, 20rem);
+  height: clamp(7.5rem, 17vw, 14rem);
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   border: 1px solid #e5e5e5;
+}
+
+.artist > * {
+  pointer-events: none;
+}
+
+.artist:nth-child(1) {
+  height: clamp(10rem, 20vw, 20rem);
+}
+
+.artist:nth-child(2) {
+  height: clamp(8.5rem, 18.5vw, 17rem);
+}
+
+.artist:nth-child(3) {
+  height: clamp(8rem, 18vw, 16rem);
 }
 
 .artist img {
