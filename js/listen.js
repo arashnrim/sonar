@@ -40,17 +40,14 @@ const animationTiming = {
 
 for (const artist of artists) {
     artist.addEventListener("mouseenter", () => {
-        console.log("Mouse enter!");
         highlight.innerHTML = `<p>${data[artist.innerText].listeners} listeners</p>`;
 
         artist.appendChild(highlight);
         highlight.animate(highlightEnter, animationTiming);
-    })
+    });
 
     artist.addEventListener("mouseleave", () => {
-        console.log("Mouse leave!")
-        highlight.animate(highlightLeave, animationTiming).onfinish = () => {
-            artist.removeChild(highlight);
-        };
-    })
+        highlight.animate(highlightLeave, animationTiming);
+        artist.removeChild(highlight);
+    });
 }
