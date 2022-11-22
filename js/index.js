@@ -1,3 +1,4 @@
+// Loads the top artists' data on hover in #artists.
 const artists = document.getElementsByClassName("artist");
 const highlight = document.createElement("div");
 highlight.classList.add("artist__highlight");
@@ -51,3 +52,14 @@ for (const artist of artists) {
         artist.removeChild(highlight);
     });
 }
+
+// Dynamically updates the pricing in #pricing__graphic__fields.
+const pricingSlider = document.getElementById("pricing__graphic__slider");
+const timeSpan = document.getElementById("pricing__graphic__time");
+const costSpan = document.getElementById("pricing__graphic__cost");
+console.log(pricingSlider.value);
+pricingSlider.addEventListener("input", () => {
+    const price = pricingSlider.value * 0.5;
+    timeSpan.innerText = `${pricingSlider.value} hour${pricingSlider.value != 1 ? "s" : ""}`;
+    costSpan.innerHTML = `$${price.toFixed(2)}<span>/month</span>`;
+})

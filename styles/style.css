@@ -3,6 +3,7 @@
 @import url("/styles/hero.css");
 @import url("/styles/listen.css");
 @import url("/styles/experience.css");
+@import url("/styles/pricing.css");
 
 :root {
   --title: clamp(2rem, 10vw, 5rem);
@@ -39,6 +40,10 @@ section {
   user-select: none;
 }
 
+h3 {
+  font-size: var(--large);
+}
+
 .content {
   padding: min(10vw, 20rem);
   box-sizing: border-box;
@@ -58,7 +63,11 @@ section {
   gap: 1em;
 }
 
-.section-text p {
+.section-text > h2 {
+  font-size: var(--subtitle);
+}
+
+.section-text > p {
   width: 75%;
 }
 

@@ -1,0 +1,24 @@
+#pricing__graphic {
+  margin-top: 3em;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  border-radius: var(--radius);
+  border: 3px solid #333333;
+  background-color: #1f1f1fa0;
+  padding: 1.5em;
+}
+
+#pricing__graphic__fields {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pricing__graphic__time {
+  font-size: var(--large);
+}
+
+#pricing__graphic__cost {
+  font-size: var(--larger);
+}
