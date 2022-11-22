@@ -9,8 +9,8 @@
 :root {
   --title: clamp(2rem, 10vw, 5rem);
   --subtitle: clamp(1.5rem, 5vw, 3rem);
-  --larger: clamp(1rem, 5vw, 2rem);
-  --large: clamp(0.75rem, 3vw, 1.5rem);
+  --larger: clamp(1.35rem, 5vw, 2rem);
+  --large: clamp(1.25rem, 3vw, 1.5rem);
   --body: clamp(1rem, 2.5vw, 1.5rem);
   --radius: 0.5rem 0 0.5rem 0;
 }

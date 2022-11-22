@@ -10,8 +10,15 @@
 
 #pricing__graphic__fields {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 468px) {
+  #pricing__graphic__fields {
+    flex-direction: row;
+  }
 }
 
 #pricing__graphic__time {
