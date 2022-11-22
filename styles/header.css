@@ -23,16 +23,6 @@ header nav ul {
   gap: 2em;
 }
 
-header a {
-  text-decoration: none;
-  color: #ffffff;
-  transition: color 150ms ease-in-out;
-}
-
-header a:hover {
-  color: #ffffffaf;
-}
-
 @media only screen and (min-width: 768px) {
   header nav {
     display: block;

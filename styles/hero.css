@@ -26,10 +26,6 @@
   font-size: var(--title);
 }
 
-#hero__content span {
-  margin-top: 1rem;
-}
-
 @media only screen and (min-width: 860px) {
   #hero__content span {
     width: 60%;
@@ -37,7 +33,6 @@
 }
 
 #hero__buttons {
-  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;

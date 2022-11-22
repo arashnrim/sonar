@@ -1,0 +1,21 @@
+#footer__navigation {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  align-items: center;
+}
+
+#footer__copyright {
+  font-size: 1em;
+  text-align: center;
+}
+
+#footer__navigation > div:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+footer.content {
+  padding: min(5vw, 10rem) !important;
+}
