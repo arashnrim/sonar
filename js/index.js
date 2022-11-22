@@ -1,6 +1,6 @@
 const artists = document.getElementsByClassName("artist");
 const highlight = document.createElement("div");
-highlight.classList.add("artist-highlight");
+highlight.classList.add("artist__highlight");
 
 const data = {
     "Taylor Swift": {

@@ -4,17 +4,17 @@
   gap: 3em;
 }
 
-#listen-text {
+#listen__text {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
 
-#listen-text p {
+#listen__text p {
   width: 75%;
 }
 
-.artists-container {
+.artists {
   display: flex;
   flex-direction: row;
   gap: 5%;
@@ -66,7 +66,7 @@
   z-index: 2;
 }
 
-.artist-highlight {
+.artist__highlight {
   position: absolute;
   top: 0;
   height: 100%;

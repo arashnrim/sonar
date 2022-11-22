@@ -35,7 +35,7 @@ section {
   user-select: none;
 }
 
-.content-container {
+.content {
   padding: min(10vw, 20rem);
   box-sizing: border-box;
 }
