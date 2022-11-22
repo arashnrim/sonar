@@ -2,12 +2,15 @@
 @import url("/styles/header.css");
 @import url("/styles/hero.css");
 @import url("/styles/listen.css");
+@import url("/styles/experience.css");
 
 :root {
   --title: clamp(2rem, 10vw, 5rem);
   --subtitle: clamp(1.5rem, 5vw, 3rem);
   --larger: clamp(1rem, 5vw, 2rem);
+  --large: clamp(0.75rem, 3vw, 1.5rem);
   --body: clamp(1rem, 2.5vw, 1.5rem);
+  --radius: 0.5rem 0 0.5rem 0;
 }
 
 * {
@@ -24,7 +27,8 @@ body {
 }
 
 span,
-p {
+p,
+.body {
   font-size: var(--body);
 }
 
@@ -46,6 +50,16 @@ section {
 
 .larger {
   font-size: var(--larger);
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.section-text p {
+  width: 75%;
 }
 
 .button {
@@ -76,5 +90,5 @@ section {
 }
 
 .button.secondary {
-  border-radius: 0.5rem 0 0.5rem 0;
+  border-radius: var(--radius);
 }

@@ -4,16 +4,6 @@
   gap: 3em;
 }
 
-#listen__text {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-#listen__text p {
-  width: 75%;
-}
-
 .artists {
   display: flex;
   flex-direction: row;
