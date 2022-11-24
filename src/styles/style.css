@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap");
+@import url("/styles/header.css");
+@import url("/styles/hero.css");
+@import url("/styles/listen.css");
+@import url("/styles/experience.css");
+@import url("/styles/pricing.css");
+@import url("/styles/footer.css");
+
+:root {
+  --title: clamp(2rem, 10vw, 5rem);
+  --subtitle: clamp(1.5rem, 5vw, 3rem);
+  --larger: clamp(1.35rem, 5vw, 2rem);
+  --large: clamp(1.25rem, 3vw, 1.5rem);
+  --body: clamp(1rem, 2.5vw, 1.5rem);
+  --radius: 0.5rem 0 0.5rem 0;
+}
+
+* {
+  margin: 0;
+  font-family: "Space Grotesk", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  overflow-x: hidden;
+}
+
+span,
+p,
+.body {
+  font-size: var(--body);
+}
+
+section {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  user-select: none;
+}
+
+h3 {
+  font-size: var(--large);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 150ms ease-in-out;
+  font-size: var(--body);
+}
+
+a:hover {
+  color: #ffffffaf;
+}
+
+.content {
+  padding: min(10vw, 20rem);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.title {
+  font-size: var(--title);
+}
+
+.subtitle {
+  font-size: var(--subtitle);
+}
+
+.larger {
+  font-size: var(--larger);
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.section-text > h2 {
+  font-size: var(--subtitle);
+}
+
+.section-text > p {
+  width: 75%;
+}
+
+.button {
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 0.5rem 0 0.5rem 0;
+  font-weight: bold;
+  text-decoration: none;
+  transition: border-radius 150ms ease-in-out, border 150ms ease-in-out;
+  font-size: var(--body);
+  width: fit-content;
+}
+
+.button.primary,
+.button.secondary {
+  border: 2px solid #1f1f1f;
+  color: white;
+  backdrop-filter: blur(2em);
+}
+
+.button.primary:hover,
+.button.secondary:hover {
+  border-radius: 0;
+  border: 3px solid #333333;
+}
+
+.button.primary {
+  background-color: #1f1f1fa0;
+}
+
+.button.secondary {
+  border-radius: var(--radius);
+}

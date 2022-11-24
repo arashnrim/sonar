@@ -1,0 +1,43 @@
+#experience__graphic {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+@media only screen and (min-width: 640px) {
+  #experience__graphic {
+    flex-direction: row;
+  }
+}
+
+#experience__graphic > figure {
+  flex: 1;
+  border-radius: var(--radius);
+  border: 3px solid #333333;
+  background-color: #1f1f1fa0;
+  padding: 1.5em;
+}
+
+#experience__graphic > span {
+  font-size: var(--title);
+}
+
+.experience__graphic__box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.experience__graphic__box > p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.experience__graphic__box > p > span {
+  color: white;
+}
+
+.experience__graphic__box > img {
+  object-fit: contain;
+}
