@@ -15,7 +15,7 @@
 }
 
 footer.content {
-  padding: min(5vw, 10rem) !important;
+  padding: min(5vw, 10rem) min(10vw, 20rem) !important;
 }
 
 @media only screen and (min-width: 460px) {
