@@ -14,6 +14,10 @@ header {
   border-radius: var(--radius);
 }
 
+header h1 {
+  margin: 0;
+}
+
 header nav {
   display: none;
 }
