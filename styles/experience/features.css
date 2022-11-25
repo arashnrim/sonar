@@ -5,6 +5,7 @@
 #features__buttons {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
@@ -20,9 +21,17 @@
 .feature {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
-  gap: 5em;
+  gap: 2em;
+}
+
+@media only screen and (min-width: 768px) {
+  .feature {
+    min-height: auto;
+    flex-direction: row;
+    gap: 5em;
+  }
 }
 
 .feature__content {
@@ -41,4 +50,5 @@
   flex: 1;
   background: white;
   aspect-ratio: 282 / 613;
+  min-height: 50vh;
 }
