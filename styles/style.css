@@ -89,6 +89,13 @@ a:hover {
   width: 75%;
 }
 
+button {
+  appearance: none;
+  border: 0;
+  background-color: transparent;
+  color: white;
+}
+
 .button {
   padding: 1rem 2rem;
   display: inline-block;
@@ -98,6 +105,7 @@ a:hover {
   transition: border-radius 150ms ease-in-out, border 150ms ease-in-out;
   font-size: var(--body);
   width: fit-content;
+  cursor: pointer;
 }
 
 .button.primary,

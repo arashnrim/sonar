@@ -1,0 +1,44 @@
+#features > section:not(.current) {
+  display: none;
+}
+
+#features__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+#features__buttons > .button.primary {
+  pointer-events: none;
+}
+
+#features,
+.feature {
+  box-sizing: border-box;
+}
+
+.feature {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5em;
+}
+
+.feature__content {
+  flex: 2;
+}
+
+.feature__content > h2 {
+  font-size: var(--larger);
+}
+
+.feature__content > p {
+  margin-top: 1em;
+}
+
+#placeholder {
+  flex: 1;
+  background: white;
+  aspect-ratio: 282 / 613;
+}
