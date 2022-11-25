@@ -46,9 +46,9 @@
   margin-top: 1em;
 }
 
-#placeholder {
+img {
   flex: 1;
-  background: white;
-  aspect-ratio: 282 / 613;
-  min-height: 50vh;
+  max-height: 50vh;
+  object-fit: contain;
+  border-radius: var(--radius);
 }
