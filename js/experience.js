@@ -24,3 +24,16 @@ const toggleFeature = (index) => {
         }
     });
 };
+
+// const boxes = document.querySelectorAll("#bento > *");
+// boxes.forEach(box => {
+//     box.addEventListener("mouseenter", () => {
+//         const text = box.querySelectorAll("p");
+//         text.forEach(t => t.style.display = "inline");
+//     });
+
+//     box.addEventListener("mouseleave", () => {
+//         const text = box.querySelectorAll("p");
+//         text.forEach(t => t.style.display = "none");
+//     })
+// })

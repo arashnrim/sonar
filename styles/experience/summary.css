@@ -1,0 +1,43 @@
+#bento {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2em;
+}
+
+@media only screen and (min-width: 960px) {
+  #bento {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bento--expanded {
+    grid-column: span 2;
+  }
+}
+
+#bento > div {
+  background: #1f1f1fa0;
+  border: 3px solid #333;
+  border-radius: var(--radius);
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  position: relative;
+}
+
+#bento > div > figure > img {
+  border-radius: 0;
+}
+
+#bento > div > p {
+  color: transparent;
+  transition: color 150ms ease-in-out;
+}
+
+#bento > div:hover > p {
+  color: white;
+}
+
+#bento > div > figure > *:not(:first-child) {
+  margin-left: 1em;
+}
