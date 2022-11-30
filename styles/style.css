@@ -29,7 +29,9 @@ body {
 
 span,
 p,
-.body {
+.body,
+th,
+td {
   font-size: var(--body);
 }
 

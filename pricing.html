@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing | Sonar</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/pricing/style.css" />
+    <script src="/js/pricing.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <h1>Sonar</h1>
+      </a>
+
+      <nav>
+        <ul>
+          <li><a href="/experience.html">Experience</a></li>
+          <li><a href="/pricing.html">Pricing</a></li>
+          <li><a href="#">Try now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div id="hero__content" class="content">
+        <div class="section-text">
+          <h1 class="title">How much does it cost to use Sonar?</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="content">
+      <div class="section-text">
+        <h2 class="subtitle">One simple way to pay.</h2>
+        <p>
+          Sonar is flexible and gives charges you by how much you listen. Pay as
+          you go.
+        </p>
+      </div>
+
+      <figure id="overview__graphic">
+        <h3>How much music do you listen to daily?</h3>
+        <div id="overview__graphic__fields">
+          <span id="overview__graphic__time">0 hours</span>
+          <span id="overview__graphic__cost">$0.00<span>/month</span></span>
+        </div>
+        <input
+          id="overview__graphic__slider"
+          type="range"
+          min="0"
+          max="24"
+          value="0"
+        />
+      </figure>
+
+      <div class="section-text">
+        <h3 class="larger">How is the fee calculated?</h2>
+        <table id="overview__price-chart">
+          <tr>
+            <th></th>
+            <th>Number of hours</th>
+          </tr>
+          <tr>
+            <th>First 4 hours</th>
+            <td>$0.50</td>
+          </tr>
+          <tr>
+            <th>Next 4 hours</th>
+            <td>$0.75</td>
+          </tr>
+          <tr>
+            <th>Any hour thereafter</th>
+            <td>$0.60</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>

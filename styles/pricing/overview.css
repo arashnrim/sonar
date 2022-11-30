@@ -1,0 +1,42 @@
+#overview__graphic {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  border-radius: var(--radius);
+  border: 3px solid #333333;
+  background-color: #1f1f1fa0;
+  padding: 1.5em;
+}
+
+#overview__graphic__fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 468px) {
+  #overview__graphic__fields {
+    flex-direction: row;
+  }
+}
+
+#overview__graphic__time {
+  font-size: var(--large);
+}
+
+#overview__graphic__cost {
+  font-size: var(--larger);
+}
+
+#overview__price-chart {
+  border: 3px solid #333;
+  border-collapse: collapse;
+}
+
+#overview__price-chart th,
+#overview__price-chart td {
+  border: 1px solid #333;
+  padding: 0.5em;
+  text-align: center;
+}
