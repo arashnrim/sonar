@@ -31,12 +31,12 @@ span,
 p,
 .body,
 th,
-td {
+td,
+summary {
   font-size: var(--body);
 }
 
 section {
-  width: 100vw;
   position: relative;
   overflow: hidden;
   user-select: none;
@@ -129,4 +129,28 @@ button {
 
 .button.secondary {
   border-radius: var(--radius);
+}
+
+input,
+textarea {
+  background-color: #1f1f1fa0;
+  border: 2px solid #333333;
+  border-radius: var(--radius);
+  padding: 1rem;
+  color: white;
+  font-size: var(--body);
+}
+
+details {
+  background-color: #1f1f1fa0;
+  border: 2px solid #333333;
+  border-radius: var(--radius);
+  padding: 1em;
+  cursor: pointer;
+  transition: border-radius 150ms ease-in-out, border 150ms ease-in-out;
+}
+
+details:hover {
+  border-radius: 0;
+  border: 3px solid #333333;
 }
