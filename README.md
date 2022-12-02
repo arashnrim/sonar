@@ -21,9 +21,9 @@ The following is lifted from the assignment brief, stating what is expected of t
 
 This project is written with vanilla web languages (i.e., HTML, CSS, and JavaScript); [index.html](https://github.com/arashnrim/sonar/blob/main/index.html) is the main entry point.
 
-## Wiki
+## Wiki and `docs`
 
-Since this project is based on understanding of the code, this repository makes use of the wiki to explain things in further detail where appropriate. Feel free to [head over to the wiki](https://github.com/arashnrim/sonar/wiki) to check details out!
+Since this project is based on understanding of the code, this repository makes use of the wiki to explain things in further detail where appropriate. Feel free to [head over to the wiki](https://github.com/arashnrim/sonar/wiki) to check details out! If you aren't on GitHub, a copy of the wiki is made in the `docs`folder.
 
 ## Contributing
 
