@@ -25,6 +25,7 @@ header nav {
 header nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 2em;
 }
 

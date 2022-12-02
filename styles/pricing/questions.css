@@ -4,6 +4,12 @@
   gap: 2em;
 }
 
+@media only screen and (max-width: 768px) {
+  #questions__split {
+    flex-direction: column;
+  }
+}
+
 #questions__form {
   flex: 1.25;
   height: fit-content;
@@ -12,9 +18,6 @@
 #questions__form input,
 #questions__form textarea {
   box-sizing: border-box;
-}
-
-#questions__form input {
 }
 
 #questions__form textarea {
@@ -35,4 +38,8 @@
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+#questions__faq p {
+  margin-top: 1em;
 }

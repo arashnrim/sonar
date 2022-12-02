@@ -3,3 +3,7 @@
   padding: 1em;
   text-align: center;
 }
+
+#comparison > figure {
+  overflow-x: scroll;
+}
