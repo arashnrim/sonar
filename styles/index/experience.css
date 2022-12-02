@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-#experience__graphic > figure {
+#experience__graphic figure {
   flex: 1;
   border-radius: var(--radius);
   border: 3px solid #333;
@@ -30,12 +30,17 @@
   gap: 1.5em;
 }
 
-.experience__graphic__box > p {
+.experience__graphic__box > span {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.experience__graphic__box > p > span {
+.experience__graphic__box .box__focus,
+.experience__graphic__box span[class^="ph-"] {
   color: white;
+}
+
+.experience__graphic__box span[class^="ph-"] {
+  margin-right: 0.25em;
 }
 
 .experience__graphic__box > img {

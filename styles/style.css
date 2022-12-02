@@ -96,7 +96,7 @@ a:hover {
 
 /* ===== Custom components ===== */
 /* === Common === */
-button,
+.button,
 input,
 textarea,
 details {
