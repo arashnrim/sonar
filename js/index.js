@@ -33,7 +33,7 @@ const highlightLeave = [
     { opacity: "0" },
 ]
 
-const animationTiming = {
+const highlightAnimation = {
   duration: 150,
   easing: "ease-in-out",
   iterations: 1,
@@ -44,11 +44,11 @@ for (const artist of artists) {
         highlight.innerHTML = `<p>${data[artist.innerText].listeners} listeners</p>`;
 
         artist.appendChild(highlight);
-        highlight.animate(highlightEnter, animationTiming);
+        highlight.animate(highlightEnter, highlightAnimation);
     });
 
     artist.addEventListener("mouseleave", () => {
-        highlight.animate(highlightLeave, animationTiming);
+        highlight.animate(highlightLeave, highlightAnimation);
         artist.removeChild(highlight);
     });
 }

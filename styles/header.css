@@ -18,7 +18,7 @@ header h1 {
   margin: 0;
 }
 
-header nav {
+header li:not(:first-child) {
   display: none;
 }
 
@@ -29,8 +29,51 @@ header nav ul {
   gap: 2em;
 }
 
-@media only screen and (min-width: 460px) {
-  header nav {
+/* Hamburger menu + Mobile menu */
+#hamburger {
+  font-size: var(--larger);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: color 150ms ease-in-out;
+}
+
+#hamburger:hover {
+  color: #ffffffaf;
+}
+
+#mobile-menu {
+  height: 100vh;
+  width: 100vw;
+  z-index: 5;
+  background-color: rgba(10, 10, 10, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#mobile-menu > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  list-style-type: none;
+}
+
+#mobile-menu a:not(.button) {
+  font-size: var(--subtitle);
+}
+
+@media only screen and (min-width: 768px) {
+  header li:not(:first-child) {
     display: block;
+  }
+
+  #hamburger {
+    display: none;
   }
 }
