@@ -1,3 +1,9 @@
+/*
+  The file responsible for the `comparison` section of the `pricing`
+  page. This section includes a comparison table of the different
+  streaming services.
+*/
+
 #comparison__table th,
 #comparison__table td {
   padding: 1em;
@@ -6,4 +12,8 @@
 
 #comparison > figure {
   overflow-x: scroll;
+  padding: 1em;
+  background-color: #171717;
+  border-radius: var(--radius);
+  border: 2px solid #333;
 }

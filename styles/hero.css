@@ -1,3 +1,8 @@
+/*
+  The styling file responsible for the hero section (what is above the
+  fold on all the pages).
+ */
+
 #hero {
   min-height: 100vh;
 }
@@ -28,12 +33,6 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 860px) {
-  #hero__content span {
-    width: 60%;
-  }
-}
-
 #hero__buttons {
   display: flex;
   flex-wrap: wrap;
@@ -45,4 +44,11 @@
   right: 0;
   z-index: 1;
   pointer-events: none;
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (min-width: 860px) {
+  #hero__content span {
+    width: 60%;
+  }
 }

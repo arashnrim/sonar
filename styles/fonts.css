@@ -1,3 +1,7 @@
+/*
+  The file responsible for importing all the fonts used.
+*/
+
 @font-face {
   font-family: "TWK Everett";
   src: url("/assets/fonts/TWKEverett-Regular.woff") format("woff"),

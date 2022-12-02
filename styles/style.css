@@ -4,6 +4,7 @@
 @import url("./header.css");
 @import url("./footer.css");
 
+/* ===== Variables ====== */
 :root {
   --title: clamp(2rem, 10vw, 5rem);
   --subtitle: clamp(1.5rem, 5vw, 3rem);
@@ -13,6 +14,7 @@
   --radius: 0.5rem 0 0.5rem 0;
 }
 
+/* ===== Global elements and classes ===== */
 * {
   margin: 0;
   font-family: "TWK Everett", system-ui, -apple-system, BlinkMacSystemFont,
@@ -77,6 +79,7 @@ a:hover {
   font-size: var(--larger);
 }
 
+/* ===== `section`s ===== */
 .section-text {
   display: flex;
   flex-direction: column;
@@ -91,6 +94,18 @@ a:hover {
   width: 75%;
 }
 
+/* ===== Custom components ===== */
+/* === Common === */
+button,
+input,
+textarea,
+details {
+  border: 2px solid #1f1f1f;
+  color: white;
+  border-radius: var(--radius);
+}
+
+/* === Button === */
 button {
   appearance: none;
   border: 0;
@@ -101,7 +116,7 @@ button {
 .button {
   padding: 1rem 2rem;
   display: inline-block;
-  border-radius: 0.5rem 0 0.5rem 0;
+  border-radius: var(--radius);
   font-weight: bold;
   text-decoration: none;
   transition: border-radius 150ms ease-in-out, border 150ms ease-in-out;
@@ -112,39 +127,34 @@ button {
 
 .button.primary,
 .button.secondary {
-  border: 2px solid #1f1f1f;
-  color: white;
   backdrop-filter: blur(2em);
 }
 
 .button.primary:hover,
 .button.secondary:hover {
   border-radius: 0;
-  border: 3px solid #333333;
+  border: 3px solid #333;
 }
 
 .button.primary {
-  background-color: #1f1f1fa0;
+  background-color: #171717;
 }
 
 .button.secondary {
   border-radius: var(--radius);
 }
 
+/* === Input and text area === */
 input,
 textarea {
-  background-color: #1f1f1fa0;
-  border: 2px solid #333333;
-  border-radius: var(--radius);
+  background-color: #171717;
   padding: 1rem;
   color: white;
   font-size: var(--body);
 }
 
+/* === Details === */
 details {
-  background-color: #1f1f1fa0;
-  border: 2px solid #333333;
-  border-radius: var(--radius);
   padding: 1em;
   cursor: pointer;
   transition: border-radius 150ms ease-in-out, border 150ms ease-in-out;
@@ -152,5 +162,5 @@ details {
 
 details:hover {
   border-radius: 0;
-  border: 3px solid #333333;
+  border: 3px solid #333;
 }

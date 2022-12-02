@@ -1,17 +1,13 @@
+/*
+  This file is responsible for the summary section of the `experience`
+  page. This section is the last section of the page and contains a
+  grid-like layout of the different features of the service.
+*/
+
 #bento {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 2em;
-}
-
-@media only screen and (min-width: 960px) {
-  #bento {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .bento--expanded {
-    grid-column: span 2;
-  }
 }
 
 #bento > div {
@@ -40,4 +36,15 @@
 
 #bento > div > figure > *:not(:first-child) {
   margin-left: 1em;
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (min-width: 960px) {
+  #bento {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bento--expanded {
+    grid-column: span 2;
+  }
 }

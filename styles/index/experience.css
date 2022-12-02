@@ -1,3 +1,9 @@
+/*
+  The file responsible for the `experience` section of the index page.
+  This section includes a small figure describing some of the service's
+  features.
+*/
+
 #experience__graphic {
   margin-top: 3em;
   display: flex;
@@ -6,17 +12,11 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 640px) {
-  #experience__graphic {
-    flex-direction: row;
-  }
-}
-
 #experience__graphic > figure {
   flex: 1;
   border-radius: var(--radius);
-  border: 3px solid #333333;
-  background-color: #1f1f1fa0;
+  border: 3px solid #333;
+  background-color: #171717;
   padding: 1.5em;
 }
 
@@ -40,4 +40,11 @@
 
 .experience__graphic__box > img {
   object-fit: contain;
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (min-width: 640px) {
+  #experience__graphic {
+    flex-direction: row;
+  }
 }

@@ -1,3 +1,9 @@
+/*
+  The file responsible for the `features` section of the `experience`
+  page. This section has a row of buttons to toggle between the different
+  features of the service..
+*/
+
 #features > section:not(.current) {
   display: none;
 }
@@ -26,14 +32,6 @@
   gap: 2em;
 }
 
-@media only screen and (min-width: 768px) {
-  .feature {
-    min-height: auto;
-    flex-direction: row;
-    gap: 5em;
-  }
-}
-
 .feature__content {
   flex: 2;
 }
@@ -51,4 +49,13 @@ img {
   max-height: 50vh;
   object-fit: contain;
   border-radius: var(--radius);
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (min-width: 768px) {
+  .feature {
+    min-height: auto;
+    flex-direction: row;
+    gap: 5em;
+  }
 }

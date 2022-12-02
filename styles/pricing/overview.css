@@ -1,10 +1,16 @@
+/*
+  The file responsible for the `overview` section of the `pricing` page.
+  This section includes a calculator with a slider to show how much
+  using the service will cost.
+*/
+
 #overview__graphic {
   display: flex;
   gap: 2em;
   flex-direction: column;
   border-radius: var(--radius);
-  border: 3px solid #333333;
-  background-color: #1f1f1fa0;
+  border: 3px solid #333;
+  background-color: #171717;
   padding: 1.5em;
 }
 
@@ -13,12 +19,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-}
-
-@media only screen and (min-width: 468px) {
-  #overview__graphic__fields {
-    flex-direction: row;
-  }
 }
 
 #overview__graphic__time {
@@ -39,4 +39,11 @@
   border: 1px solid #333;
   padding: 0.5em;
   text-align: center;
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (min-width: 468px) {
+  #overview__graphic__fields {
+    flex-direction: row;
+  }
 }

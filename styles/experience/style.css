@@ -1,3 +1,9 @@
+/*
+  This file is responsible for the `experience` page. It includes the
+  styling for the specific sections each broken down into their own
+  files.
+*/
+
 @import url("./hero.css");
 @import url("./features.css");
 @import url("./summary.css");

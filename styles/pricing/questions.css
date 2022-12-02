@@ -1,13 +1,13 @@
+/*
+  The file responsible for the `questions` section of the `pricing` page.
+  This file contains a form to input a query and a frequently asked
+  questions section.
+*/
+
 #questions__split {
   display: flex;
   flex-direction: row;
   gap: 2em;
-}
-
-@media only screen and (max-width: 768px) {
-  #questions__split {
-    flex-direction: column;
-  }
 }
 
 #questions__form {
@@ -42,4 +42,11 @@
 
 #questions__faq p {
   margin-top: 1em;
+}
+
+/* ===== Responsive cases ===== */
+@media only screen and (max-width: 768px) {
+  #questions__split {
+    flex-direction: column;
+  }
 }

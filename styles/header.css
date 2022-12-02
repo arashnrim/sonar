@@ -1,3 +1,9 @@
+/*
+  The file responsible for the header section. The header is the
+  navigation bar that is present on all the pages, usually (and in this
+  case) at the top.
+*/
+
 header {
   position: fixed;
   width: calc(100vw - 5vmin);
@@ -29,7 +35,7 @@ header nav ul {
   gap: 2em;
 }
 
-/* Hamburger menu + Mobile menu */
+/* ===== Hamburger menu + Mobile menu ===== */
 #hamburger {
   font-size: var(--larger);
   cursor: pointer;
@@ -46,7 +52,7 @@ header nav ul {
   height: 100vh;
   width: 100vw;
   z-index: 5;
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: #0a0a0ae6;
   position: fixed;
   top: 0;
   left: 0;
@@ -68,6 +74,7 @@ header nav ul {
   font-size: var(--subtitle);
 }
 
+/* ===== Responsive cases ===== */
 @media only screen and (min-width: 768px) {
   header li:not(:first-child) {
     display: block;

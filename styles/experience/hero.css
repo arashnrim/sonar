@@ -1,3 +1,8 @@
+/*
+  This file includes any overriding styles for the hero section of the
+  `experience` page.
+*/
+
 #hero {
   position: relative;
 }

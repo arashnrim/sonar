@@ -1,3 +1,9 @@
+/*
+  This file is responsible for the `pricing` page. It includes the
+  styling for the specific sections each broken down into their own
+  files.
+*/
+
 @import url("./overview.css");
 @import url("./comparison.css");
 @import url("./questions.css");
