@@ -15,7 +15,7 @@
   gap: 1em;
 }
 
-#features__buttons > .button.primary {
+#features__buttons > .button.button--primary {
   pointer-events: none;
 }
 

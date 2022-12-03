@@ -11,7 +11,7 @@ mobileMenu.innerHTML = `
     <ul>
         <li><a href="/experience.html">Experience</a></li>
         <li><a href="/pricing.html">Pricing</a></li>
-        <li><a href="#" class="button primary">Try now</a></li>
+        <li><a href="#" class="button button--primary">Try now</a></li>
     <ul>
 `;
 

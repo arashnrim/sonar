@@ -22,9 +22,9 @@ const toggleFeature = (index) => {
 
   toggleButtons.forEach((button, i) => {
     if (i === index) {
-      button.classList.replace("secondary", "primary");
+      button.classList.replace("button--secondary", "button--primary");
     } else {
-      button.classList.replace("primary", "secondary");
+      button.classList.replace("button--primary", "button--secondary");
     }
   });
 };
