@@ -2,10 +2,6 @@
 
 Welcome to the project repository for Sonar's website! This project is part of an assignment required by one of my modules in school.
 
-> **Warning**
->
-> It's likely that, at this point in time, you'll encounter a not found error when you click on any link in this README that points to the repository. This is mainly caused by the fact that the repository is **private**; once the assignment period is nearing its end or has ended, I'll make the repository public.
-
 ## About the project
 
 Sonar is a fictitious music streaming service (similar to the likes of [Spotify](https://spotify.com), [Apple Music](https://apple.com/music), and [TIDAL](https://tidal.com)). The idea of creating a website for Sonar came about after creating a small UI design project creating the UI of Sonar on a mobile device.
