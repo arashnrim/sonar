@@ -34,3 +34,7 @@ If you would like to leave comments about the source code, like possible design 
 ## Licence
 
 This repository is made open-source with the [MIT License](https://github.com/arashnrim/sonar/blob/main/LICENSE.md), meaning that you are allowed to modify and distribute the source code as well as use it for private and commercial use provided that the licence and copyright notices are retained. For more information, visit the link above to learn what is permitted by the licence.
+
+## Acknowledgements
+
+Thank you to the lecturers and friends behind the project that encouraged me to work and improve this project! A special thank you as well to [Marc Mueller](https://www.pexels.com/video/people-having-fun-at-a-concert-2022395/) who made [the video used in `index`'s hero](https://github.com/arashnrim/sonar/blob/main/assets/video/hero.mp4) and made it free to use.
