@@ -7,3 +7,4 @@ Feel free to explore this wiki however you like. This wiki will generally store 
 - `design-process.md` — a look at how I came up with the design of the project, alongside considerations.
 - `interesting-encounters.md` — a documentation of some interesting encounters I've had while embarking on this project.
 - `page-breakdown.md` — a detailed breakdown of the files used for each page and the design.
+- `specifications.md` — an analysis of the design and technical aspects of the website.

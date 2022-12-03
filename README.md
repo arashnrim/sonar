@@ -37,4 +37,4 @@ This repository is made open-source with the [MIT License](https://github.com/ar
 
 ## Acknowledgements
 
-Thank you to the lecturers and friends behind the project that encouraged me to work and improve this project! A special thank you as well to [Marc Mueller](https://www.pexels.com/video/people-having-fun-at-a-concert-2022395/) who made [the video used in `index`'s hero](https://github.com/arashnrim/sonar/blob/main/assets/video/hero.mp4) and made it free to use.
+Thank you to the lecturers and friends behind the project that encouraged me to work and improve this project! A special thank you as well to [Marc Mueller](https://www.pexels.com/video/people-having-fun-at-a-concert-2022395/) who made [the video used in `index`'s hero](https://github.com/arashnrim/sonar/blob/main/assets/video/hero.mp4) and made it free to use. Additionally, a shoutout to [WELTKERN](https://www.weltkern.com/) for the amazing font; check it out for more fonts (especially if you're a student looking for fonts available for academic use!).
